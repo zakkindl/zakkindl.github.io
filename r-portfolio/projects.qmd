@@ -1,0 +1,112 @@
+---
+title: "Projects"
+subtitle: "Use the cards below to explore my work"
+toc: false
+---
+
+
+
+---
+
+## Shiny Apps
+
+::: {.project-grid}
+
+::: {.project-card}
+
+### Model Statistic Performance Data
+
+Describe the app in 2–3 sentences. What does a user do with it? What data does it show? What's the key interaction?
+
+::: {.card-tags}
+[Shiny]{.tag} [plotly]{.tag} [DT]{.tag}
+:::
+
+::: {.card-links}
+[Live App ↗](https://yourusername.shinyapps.io/app-one)
+[Source](https://github.com/yourusername/app-one)
+:::
+:::
+
+::: {.project-card}
+
+### App Title Two
+
+Describe the app in 2–3 sentences. What does a user do with it? What data does it show? What's the key interaction?
+
+::: {.card-tags}
+[Shiny]{.tag} [leaflet]{.tag} [sf]{.tag}
+:::
+
+::: {.card-links}
+[Live App ↗](https://yourusername.shinyapps.io/app-two)
+[Source](https://github.com/yourusername/app-two)
+:::
+:::
+
+:::
+
+---
+
+## Analyses & Reports
+
+::: {.project-grid}
+
+::: {.project-card}
+
+
+### Parameterized Reporting
+
+Describe the analysis in 2–3 sentences. What question does it answer? What dataset? What methods?
+
+::: {.card-tags}
+[quarto]{.tag} [fill me]{.tag} [fill me]{.tag}
+:::
+
+::: {.card-links}
+[Read Report →](projects/analysis-one.qmd)
+[Source](https://github.com/yourusername/analysis-one)
+:::
+:::
+
+::: {.project-card}
+
+### PCA of Countermovement Jump Data
+
+Describe the analysis in 2–3 sentences. What question does it answer? What dataset? What methods?
+
+::: {.card-tags}
+[PCA]{.tag} [fill me]{.tag}
+:::
+
+::: {.card-links}
+[Read Report →](projects/analysis-two.qmd)
+[Source](https://github.com/yourusername/analysis-two)
+:::
+:::
+
+:::
+
+---
+
+## Scripts & Pipelines
+
+::: {.project-grid}
+
+::: {.project-card}
+
+### Script / Pipeline Title
+
+Describe what this script does in 2–3 sentences. What data goes in, what comes out, how is it automated?
+
+::: {.card-tags}
+[purrr]{.tag} [readr]{.tag} [janitor]{.tag}
+:::
+
+::: {.card-links}
+[See Walkthrough →](projects/my-script.qmd)
+[Source](https://github.com/yourusername/my-script)
+:::
+:::
+
+:::

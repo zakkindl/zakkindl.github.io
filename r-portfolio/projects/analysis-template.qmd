@@ -1,0 +1,83 @@
+---
+title: "My Analysis Title"
+description: "One-sentence description of what this analysis investigates"
+date: 2025-03-01
+categories: [Analysis, ggplot2, Modelling]
+image: "../assets/thumbnails/analysis-one.png"  # optional
+toc: true
+code-fold: true
+---
+
+## Question
+
+State the question or problem this analysis addresses in 1–2 sentences.
+
+## Data
+
+Describe the dataset and load it here.
+
+```{r}
+#| label: load-data
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(here)
+
+# Load your data
+# data <- read_csv(here("data", "your-data.csv"))
+
+# For demo, use a built-in dataset
+data <- palmerpenguins::penguins |> drop_na()
+
+glimpse(data)
+```
+
+## Exploration
+
+```{r}
+#| label: eda
+#| fig-cap: "Distribution of key variable"
+
+data |>
+  ggplot(aes(x = bill_length_mm, fill = species)) +
+  geom_histogram(bins = 30, alpha = 0.7, position = "identity") +
+  scale_fill_manual(values = c("#1B6CA8", "#E26A2C", "#2CA85A")) +
+  labs(
+    title = "Distribution of Bill Length by Species",
+    x = "Bill length (mm)",
+    y = "Count",
+    fill = NULL
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(legend.position = "top")
+```
+
+## Analysis
+
+Describe your approach, then show the code.
+
+```{r}
+#| label: model
+
+model <- lm(body_mass_g ~ bill_length_mm + flipper_length_mm + species,
+            data = data)
+
+broom::tidy(model, conf.int = TRUE) |>
+  filter(term != "(Intercept)") |>
+  knitr::kable(digits = 2, caption = "Model coefficients")
+```
+
+## Key Findings
+
+- **Finding 1** — one sentence explaining what you found
+- **Finding 2** — one sentence
+- **Finding 3** — one sentence
+
+## Conclusion
+
+Summarise the takeaways in a short paragraph. Link to any follow-up work if relevant.
+
+---
+
+*Source code: [GitHub](https://github.com/yourusername/your-analysis)*

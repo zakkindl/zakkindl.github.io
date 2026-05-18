@@ -1,0 +1,75 @@
+---
+title: "My Shiny App Title"
+description: "One-sentence description of the app"
+date: 2025-01-15
+categories: [Shiny, R, Interactive]
+image: "../assets/thumbnails/app-one.png"  # optional screenshot
+toc: true
+---
+
+## Overview
+
+Write 2–3 paragraphs here explaining:
+
+- **What the app does** — the problem it solves and who uses it
+- **Why you built it** — the motivation or context
+- **What's interesting about it** — a key technical or design decision
+
+## Live App
+
+```{=html}
+<!-- Replace the src URL with your shinyapps.io URL -->
+<iframe
+  src="https://yourusername.shinyapps.io/your-app/"
+  class="shiny-embed"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
+```
+
+> The app is hosted on [shinyapps.io](https://shinyapps.io) (free tier — may take a moment to wake up).
+> [Open in new tab ↗](https://yourusername.shinyapps.io/your-app/){.btn .btn-outline-primary .btn-sm}
+
+## How It Works
+
+Explain the key technical pieces. Use code blocks to highlight interesting parts.
+
+```r
+# Example: a reactive that filters data based on user input
+filtered_data <- reactive({
+  data |>
+    filter(
+      year >= input$year_range[1],
+      year <= input$year_range[2],
+      region %in% input$regions
+    )
+})
+```
+
+### UI structure
+
+Briefly describe how the UI is laid out — sidebar, tabs, panels, etc.
+
+### Key packages
+
+| Package | Purpose |
+|---------|---------|
+| `shiny` | App framework |
+| `bslib` | Bootstrap 5 theming |
+| `plotly` | Interactive charts |
+| `DT` | Interactive tables |
+
+## Data
+
+Describe the dataset: source, size, any cleaning steps. If the data is public, link to it.
+
+```r
+# Data loading and cleaning
+data <- read_csv("data/my-data.csv") |>
+  janitor::clean_names() |>
+  filter(!is.na(key_variable))
+```
+
+## Source Code
+
+The full source is on [GitHub](https://github.com/yourusername/your-app). Contributions and suggestions welcome.

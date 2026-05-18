@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Use the cards below to explore my work. Source code for most projects is available on GitHub."
+  },
+  {
+    "objectID": "projects.html#shiny-apps",
+    "href": "projects.html#shiny-apps",
+    "title": "Projects",
+    "section": "Shiny Apps",
+    "text": "Shiny Apps\n\n\nModel Statistic Performance Data\nDescribe the app in 2–3 sentences. What does a user do with it? What data does it show? What’s the key interaction?\n\nShiny plotly DT\n\n\nLive App ↗ Source\n\n\n\nApp Title Two\nDescribe the app in 2–3 sentences. What does a user do with it? What data does it show? What’s the key interaction?\n\nShiny leaflet sf\n\n\nLive App ↗ Source"
+  },
+  {
+    "objectID": "projects.html#analyses-reports",
+    "href": "projects.html#analyses-reports",
+    "title": "Projects",
+    "section": "Analyses & Reports",
+    "text": "Analyses & Reports\n\n\nParameterized Reporting\nDescribe the analysis in 2–3 sentences. What question does it answer? What dataset? What methods?\n\nquarto fill me fill me\n\n\nRead Report → Source\n\n\n\nPCA of Countermovement Jump Data\nDescribe the analysis in 2–3 sentences. What question does it answer? What dataset? What methods?\n\nPCA fill me\n\n\nRead Report → Source"
+  },
+  {
+    "objectID": "projects.html#scripts-pipelines",
+    "href": "projects.html#scripts-pipelines",
+    "title": "Projects",
+    "section": "Scripts & Pipelines",
+    "text": "Scripts & Pipelines\n\n\nScript / Pipeline Title\nDescribe what this script does in 2–3 sentences. What data goes in, what comes out, how is it automated?\n\npurrr readr janitor\n\n\nSee Walkthrough → Source"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a research associate / sports scientist based in Eugene in the Bowerman Sport Science Center. I work in a both a clinical and applied research capacity with athletes. In my free time I try to build tools that make data useful, and communicate findings clearly.\nMy work spans exploratory analysis, statistical modelling, and interactive Shiny applications.\n\n\nOriginally from Spokane, WA I grew up an avid runner before attending Washington State University as a student athlete in cross country & track. I found my love for human performance through this experience. Wanting to understand performance further I attended Marquette University where I worked as a research assistant/analyst before starting at the Bowerman Sport Science Center.\n\n\n\n\nB.A. Social Sciences\n\nEmphasis in Kinesiology, Human Development & Psychology\n\nM.S. Sport & Exercise Analytics\n\nEmphasis in data science\n\n\n\n\n\n\n\n\nArea\nTools\n\n\n\n\nData wrangling\ndplyr, tidyr, data.table, janitor\n\n\nVisualization\nggplot2, plotly, gt, reactable\n\n\nModelling\nlm, glm, lme4, tidymodels\n\n\nApps\nShiny, shinydashboard, bslib\n\n\nReporting\nQuarto, R Markdown, knitr\n\n\nVersion control\nGit, GitHub\n\n\n\n\n\n\n\n📍 Based in Eugene / Oregon\n🔭 Working on translating data into actionable insight\n📫 Reach me at zakgkindl@gmail.com"
+  },
+  {
+    "objectID": "about.html#hi-im-your-name",
+    "href": "about.html#hi-im-your-name",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a data analyst / R developer based in [Your City]. I work with messy data, build tools that make it useful, and communicate findings clearly.\nMy work spans exploratory analysis, statistical modelling, and interactive Shiny applications. I care about reproducible workflows and well-documented code.\n\n\nWrite a short paragraph about your background — where you studied, what field you work in, and what kinds of problems you enjoy solving.\n\n\n\n\n\n\nArea\nTools\n\n\n\n\nData wrangling\ndplyr, tidyr, data.table, janitor\n\n\nVisualisation\nggplot2, plotly, gt, reactable\n\n\nModelling\nlm, glm, lme4, tidymodels\n\n\nApps\nShiny, shinydashboard, bslib\n\n\nReporting\nQuarto, R Markdown, knitr\n\n\nVersion control\nGit, GitHub\n\n\n\n\n\n\n\n📍 Based in [Your City / Region]\n🔭 Working on [something you’re building]\n📫 Reach me at your@email.com"
+  },
+  {
+    "objectID": "projects/analysis-template.html",
+    "href": "projects/analysis-template.html",
+    "title": "My Analysis Title",
+    "section": "",
+    "text": "State the question or problem this analysis addresses in 1–2 sentences."
+  },
+  {
+    "objectID": "projects/analysis-template.html#question",
+    "href": "projects/analysis-template.html#question",
+    "title": "My Analysis Title",
+    "section": "",
+    "text": "State the question or problem this analysis addresses in 1–2 sentences."
+  },
+  {
+    "objectID": "projects/analysis-template.html#data",
+    "href": "projects/analysis-template.html#data",
+    "title": "My Analysis Title",
+    "section": "Data",
+    "text": "Data\nDescribe the dataset and load it here.\n\n\nCode\nlibrary(tidyverse)\nlibrary(here)\n\n# Load your data\n# data &lt;- read_csv(here(\"data\", \"your-data.csv\"))\n\n# For demo, use a built-in dataset\ndata &lt;- palmerpenguins::penguins |&gt; drop_na()\n\nglimpse(data)\n\n\nRows: 333\nColumns: 8\n$ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…\n$ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…\n$ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, 36.7, 39.3, 38.9, 39.2, 41.1, 38.6…\n$ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, 19.3, 20.6, 17.8, 19.6, 17.6, 21.2…\n$ flipper_length_mm &lt;int&gt; 181, 186, 195, 193, 190, 181, 195, 182, 191, 198, 18…\n$ body_mass_g       &lt;int&gt; 3750, 3800, 3250, 3450, 3650, 3625, 4675, 3200, 3800…\n$ sex               &lt;fct&gt; male, female, female, female, male, female, male, fe…\n$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…"
+  },
+  {
+    "objectID": "projects/analysis-template.html#exploration",
+    "href": "projects/analysis-template.html#exploration",
+    "title": "My Analysis Title",
+    "section": "Exploration",
+    "text": "Exploration\n\n\nCode\ndata |&gt;\n  ggplot(aes(x = bill_length_mm, fill = species)) +\n  geom_histogram(bins = 30, alpha = 0.7, position = \"identity\") +\n  scale_fill_manual(values = c(\"#1B6CA8\", \"#E26A2C\", \"#2CA85A\")) +\n  labs(\n    title = \"Distribution of Bill Length by Species\",\n    x = \"Bill length (mm)\",\n    y = \"Count\",\n    fill = NULL\n  ) +\n  theme_minimal(base_size = 13) +\n  theme(legend.position = \"top\")\n\n\n\n\n\nDistribution of key variable"
+  },
+  {
+    "objectID": "projects/analysis-template.html#analysis",
+    "href": "projects/analysis-template.html#analysis",
+    "title": "My Analysis Title",
+    "section": "Analysis",
+    "text": "Analysis\nDescribe your approach, then show the code.\n\n\nCode\nmodel &lt;- lm(body_mass_g ~ bill_length_mm + flipper_length_mm + species,\n            data = data)\n\nbroom::tidy(model, conf.int = TRUE) |&gt;\n  filter(term != \"(Intercept)\") |&gt;\n  knitr::kable(digits = 2, caption = \"Model coefficients\")\n\n\n\nModel coefficients\n\n\n\n\n\n\n\n\n\n\n\nterm\nestimate\nstd.error\nstatistic\np.value\nconf.low\nconf.high\n\n\n\n\nbill_length_mm\n60.12\n7.21\n8.34\n0.00\n45.94\n74.30\n\n\nflipper_length_mm\n27.54\n3.21\n8.58\n0.00\n21.23\n33.86\n\n\nspeciesChinstrap\n-732.42\n82.06\n-8.93\n0.00\n-893.85\n-570.98\n\n\nspeciesGentoo\n113.25\n89.21\n1.27\n0.21\n-62.23\n288.74"
+  },
+  {
+    "objectID": "projects/analysis-template.html#key-findings",
+    "href": "projects/analysis-template.html#key-findings",
+    "title": "My Analysis Title",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nFinding 1 — one sentence explaining what you found\nFinding 2 — one sentence\nFinding 3 — one sentence"
+  },
+  {
+    "objectID": "projects/analysis-template.html#conclusion",
+    "href": "projects/analysis-template.html#conclusion",
+    "title": "My Analysis Title",
+    "section": "Conclusion",
+    "text": "Conclusion\nSummarise the takeaways in a short paragraph. Link to any follow-up work if relevant.\n\nSource code: GitHub"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "",
+    "section": "Featured Work",
+    "text": "Featured Work\n\n\nMy Shiny App Title\nA brief description of what this app does, who it’s for, and what problem it solves. Keep it to 2–3 sentences.\n\nShiny Leaflet reactive\n\n\nLive App ↗ Source\n\n\n\nMy Analysis Title\nA brief description of the analysis, dataset used, and key finding or insight. Keep it to 2–3 sentences.\n\nggplot2 dplyr regression\n\n\nRead Report → Source\n\n\n\nMy Script / Pipeline Title\nA brief description of what this script does, how it runs, and the output it produces.\n\ndata wrangling purrr readr\n\n\nSee Code → Source\n\n\n\nSee all projects →"
+  },
+  {
+    "objectID": "about.html#hi-im-zak-kindl",
+    "href": "about.html#hi-im-zak-kindl",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a research associate / sports scientist based in Eugene at the Bowerman Sport Science Center. I work with messy data, build tools that make it useful, and communicate findings clearly.\nMy work spans exploratory analysis, statistical modelling, and interactive Shiny applications.\n\n\nWrite a short paragraph about your background — where you studied, what field you work in, and what kinds of problems you enjoy solving.\n\n\n\n\n\n\nArea\nTools\n\n\n\n\nData wrangling\ndplyr, tidyr, data.table, janitor\n\n\nVisualization\nggplot2, plotly, gt, reactable\n\n\nModelling\nlm, glm, lme4, tidymodels\n\n\nApps\nShiny, shinydashboard, bslib\n\n\nReporting\nQuarto, R Markdown, knitr\n\n\nVersion control\nGit, GitHub\n\n\n\n\n\n\n\n📍 Based in Eugene / Oregon\n🔭 Working on translating data into action\n📫 Reach me at zakgkindl@gmail.com"
+  },
+  {
+    "objectID": "about.html#hi-im-zak",
+    "href": "about.html#hi-im-zak",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a research associate / sports scientist based in Eugene in the Bowerman Sport Science Center. I work in a both a clinical and applied research capacity with athletes. In my free time I try to build tools that make data useful, and communicate findings clearly.\nMy work spans exploratory analysis, statistical modelling, and interactive Shiny applications.\n\n\nOriginally from Spokane, WA I grew up an avid runner before attending Washington State University as a student athlete in cross country & track. I found my love for human performance through this experience. Wanting to understand performance further I attended Marquette University where I worked as a research assistant/analyst before starting at the Bowerman Sport Science Center.\n\n\n\n\nB.A. Social Sciences\n\nEmphasis in Kinesiology, Human Development & Psychology\n\nM.S. Sport & Exercise Analytics\n\nEmphasis in data science\n\n\n\n\n\n\n\n\nArea\nTools\n\n\n\n\nData wrangling\ndplyr, tidyr, data.table, janitor\n\n\nVisualization\nggplot2, plotly, gt, reactable\n\n\nModelling\nlm, glm, lme4, tidymodels\n\n\nApps\nShiny, shinydashboard, bslib\n\n\nReporting\nQuarto, R Markdown, knitr\n\n\nVersion control\nGit, GitHub\n\n\n\n\n\n\n\n📍 Based in Eugene / Oregon\n🔭 Working on translating data into actionable insight\n📫 Reach me at zakgkindl@gmail.com"
+  }
+]

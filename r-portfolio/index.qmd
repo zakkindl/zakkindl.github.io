@@ -1,0 +1,88 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+::: {.hero}
+
+# Zak Kindl
+
+::: {.hero-subtitle}
+Research Associate · Sports Scientist
+:::
+
+::: {.hero-badges}
+[R]{.badge-pill}
+[Shiny]{.badge-pill}
+[Quarto]{.badge-pill}
+[Analysis]{.badge-pill}
+[Data Viz]{.badge-pill}
+:::
+I analyze human performance data while trying to make complex information clear and actionable.
+
+[View Projects →](projects.qmd){.btn .btn-primary}
+[About Me](about.qmd){.btn .btn-outline-secondary}
+
+:::
+
+---
+
+## Featured Work
+
+::: {.project-grid}
+
+::: {.project-card}
+
+
+### My Shiny App Title
+
+A brief description of what this app does, who it's for, and what problem it solves. Keep it to 2–3 sentences.
+
+::: {.card-tags}
+[Shiny]{.tag} [Leaflet]{.tag} [reactive]{.tag}
+:::
+
+::: {.card-links}
+[Live App ↗](https://yourusername.shinyapps.io/your-app)
+[Source](https://github.com/yourusername/your-app)
+:::
+:::
+
+::: {.project-card}
+
+
+### My Analysis Title
+
+A brief description of the analysis, dataset used, and key finding or insight. Keep it to 2–3 sentences.
+
+::: {.card-tags}
+[ggplot2]{.tag} [dplyr]{.tag} [regression]{.tag}
+:::
+
+::: {.card-links}
+[Read Report →](projects/my-analysis.qmd)
+[Source](https://github.com/yourusername/your-analysis)
+:::
+:::
+
+::: {.project-card}
+
+
+### My Script / Pipeline Title
+
+A brief description of what this script does, how it runs, and the output it produces.
+
+::: {.card-tags}
+[data wrangling]{.tag} [purrr]{.tag} [readr]{.tag}
+:::
+
+::: {.card-links}
+[See Code →](projects/my-script.qmd)
+[Source](https://github.com/yourusername/your-script)
+:::
+:::
+
+:::
+
+[See all projects →](projects.qmd)

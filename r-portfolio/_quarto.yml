@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Zak Kindl"
+  description: "Research Associate & Sports Scientist"
+  favicon: assets/favicon.ico
+  
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/zakkindl
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/zak-kindl/
+        aria-label: LinkedIn
+
+  page-footer:
+    left: "Built with [Quarto](https://quarto.org), [R](https://posit.co/download/rstudio-desktop) & [Claude](https://claude.ai/login)"
+    right: "© 2026 Zak K"
+
+format:
+  html:
+    theme:
+      light: [flatly, custom.scss]
+      dark: [darkly, custom.scss]
+    css: assets/styles.css
+    toc: true
+    toc-location: right
+    code-fold: true
+    code-tools: true
+    highlight-style: github
