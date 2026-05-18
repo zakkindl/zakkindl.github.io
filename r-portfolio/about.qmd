@@ -30,7 +30,7 @@ Originally from Spokane, WA I grew up an avid runner before attending Washington
 
 | Area | Tools |
 |------|-------|
-| Data wrangling | dplyr, tidyr, data.table, janitor |
+| Data wrangling | dplyr, tidyr, janitor |
 | Visualization | ggplot2, plotly, gt, reactable |
 | Modelling | lm, glm, lme4, tidymodels |
 | Apps | Shiny, shinydashboard, bslib |
