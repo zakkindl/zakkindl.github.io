@@ -7,8 +7,8 @@ $headings-font-family: "DM Serif Display", Georgia, serif;
 $headings-font-weight: 400;
 
 // Colors — adjust these to your taste
-$primary: #1B6CA8;
-$secondary: #6c757d;
+$primary: #6c757d;
+$secondary: #696863;
 $body-bg: #FAFAFA;
 $body-color: #2d2d2d;
 
@@ -68,14 +68,14 @@ $code-color: #1f2328;
   border-radius: 999px;
   font-size: 0.82rem;
   font-weight: 500;
-  background: #EBF4FF;
-  color: #1B6CA8;
-  border: 1px solid #BDD9F5;
+  background: #696863;
+  color: #ffffff;
+  border: 1px solid #2d2d2d;
   
   .dark & {
-    background: #1a2f45;
-    color: #7EC8F7;
-    border-color: #2a4a65;
+    background: #2d2d2d;
+    color: #ffffff;
+    border-color: #2d2d2d;
   }
 }
 

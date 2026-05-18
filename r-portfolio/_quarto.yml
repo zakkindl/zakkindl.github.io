@@ -29,9 +29,7 @@ website:
 
 format:
   html:
-    theme:
-      light: [flatly, custom.scss]
-      dark: [darkly, custom.scss]
+    theme: [flatly, custom.scss]
     css: assets/styles.css
     toc: true
     toc-location: right

@@ -28,7 +28,7 @@ I analyze human performance data while trying to make complex information clear 
 
 ---
 
-## Featured Work
+## Featured Work (Update coming soon)
 
 ::: {.project-grid}
 
