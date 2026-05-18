@@ -35,7 +35,7 @@ Originally from Spokane, WA I grew up an avid runner before attending Washington
 | Modelling | lm, glm, lme4, tidymodels |
 | Apps | Shiny, shinydashboard, bslib |
 | Reporting | Quarto, R Markdown, knitr |
-| Version control | Git, GitHub |
+
 
 ### Currently
 
