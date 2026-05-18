@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
     "section": "",
-    "text": "Use the cards below to explore my work. Source code for most projects is available on GitHub."
+    "text": "I’m a research associate / sports scientist based in Eugene in the Bowerman Sport Science Center. I work in a both a clinical and applied research capacity with athletes. In my free time I try to build tools that make data useful, and communicate findings clearly.\nMy work spans exploratory analysis, statistical modelling, and interactive Shiny applications.\n\n\nOriginally from Spokane, WA I grew up an avid runner before attending Washington State University as a student athlete in cross country & track. I found my love for human performance through this experience. Wanting to understand performance further I attended Marquette University where I worked as a research assistant/analyst before starting at the Bowerman Sport Science Center.\n\n\n\n\nB.A. Social Sciences\n\nEmphasis in Kinesiology, Human Development & Psychology\n\nM.S. Sport & Exercise Analytics\n\nEmphasis in data science\n\n\n\n\n\n\n\n\nArea\nTools\n\n\n\n\nData wrangling\ndplyr, tidyr, data.table, janitor\n\n\nVisualization\nggplot2, plotly, gt, reactable\n\n\nModelling\nlm, glm, lme4, tidymodels\n\n\nApps\nShiny, shinydashboard, bslib\n\n\nReporting\nQuarto, R Markdown, knitr\n\n\n\n\n\n\n\n📍 Based in Eugene / Oregon\n🔭 Working on translating data into actionable insight\n📫 Reach me at zakgkindl@gmail.com"
+  },
+  {
+    "objectID": "about.html#hi-im-zak",
+    "href": "about.html#hi-im-zak",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a research associate / sports scientist based in Eugene in the Bowerman Sport Science Center. I work in a both a clinical and applied research capacity with athletes. In my free time I try to build tools that make data useful, and communicate findings clearly.\nMy work spans exploratory analysis, statistical modelling, and interactive Shiny applications.\n\n\nOriginally from Spokane, WA I grew up an avid runner before attending Washington State University as a student athlete in cross country & track. I found my love for human performance through this experience. Wanting to understand performance further I attended Marquette University where I worked as a research assistant/analyst before starting at the Bowerman Sport Science Center.\n\n\n\n\nB.A. Social Sciences\n\nEmphasis in Kinesiology, Human Development & Psychology\n\nM.S. Sport & Exercise Analytics\n\nEmphasis in data science\n\n\n\n\n\n\n\n\nArea\nTools\n\n\n\n\nData wrangling\ndplyr, tidyr, data.table, janitor\n\n\nVisualization\nggplot2, plotly, gt, reactable\n\n\nModelling\nlm, glm, lme4, tidymodels\n\n\nApps\nShiny, shinydashboard, bslib\n\n\nReporting\nQuarto, R Markdown, knitr\n\n\n\n\n\n\n\n📍 Based in Eugene / Oregon\n🔭 Working on translating data into actionable insight\n📫 Reach me at zakgkindl@gmail.com"
   },
   {
     "objectID": "projects.html#shiny-apps",
@@ -28,18 +35,46 @@
     "text": "Scripts & Pipelines\n\n\nScript / Pipeline Title\nDescribe what this script does in 2–3 sentences. What data goes in, what comes out, how is it automated?\n\npurrr readr janitor\n\n\nSee Walkthrough → Source"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
+    "objectID": "projects/shiny-app-template.html",
+    "href": "projects/shiny-app-template.html",
+    "title": "My Shiny App Title",
     "section": "",
-    "text": "I’m a research associate / sports scientist based in Eugene in the Bowerman Sport Science Center. I work in a both a clinical and applied research capacity with athletes. In my free time I try to build tools that make data useful, and communicate findings clearly.\nMy work spans exploratory analysis, statistical modelling, and interactive Shiny applications.\n\n\nOriginally from Spokane, WA I grew up an avid runner before attending Washington State University as a student athlete in cross country & track. I found my love for human performance through this experience. Wanting to understand performance further I attended Marquette University where I worked as a research assistant/analyst before starting at the Bowerman Sport Science Center.\n\n\n\n\nB.A. Social Sciences\n\nEmphasis in Kinesiology, Human Development & Psychology\n\nM.S. Sport & Exercise Analytics\n\nEmphasis in data science\n\n\n\n\n\n\n\n\nArea\nTools\n\n\n\n\nData wrangling\ndplyr, tidyr, data.table, janitor\n\n\nVisualization\nggplot2, plotly, gt, reactable\n\n\nModelling\nlm, glm, lme4, tidymodels\n\n\nApps\nShiny, shinydashboard, bslib\n\n\nReporting\nQuarto, R Markdown, knitr\n\n\nVersion control\nGit, GitHub\n\n\n\n\n\n\n\n📍 Based in Eugene / Oregon\n🔭 Working on translating data into actionable insight\n📫 Reach me at zakgkindl@gmail.com"
+    "text": "Write 2–3 paragraphs here explaining:\n\nWhat the app does — the problem it solves and who uses it\nWhy you built it — the motivation or context\nWhat’s interesting about it — a key technical or design decision"
   },
   {
-    "objectID": "about.html#hi-im-your-name",
-    "href": "about.html#hi-im-your-name",
-    "title": "About Me",
+    "objectID": "projects/shiny-app-template.html#overview",
+    "href": "projects/shiny-app-template.html#overview",
+    "title": "My Shiny App Title",
     "section": "",
-    "text": "I’m a data analyst / R developer based in [Your City]. I work with messy data, build tools that make it useful, and communicate findings clearly.\nMy work spans exploratory analysis, statistical modelling, and interactive Shiny applications. I care about reproducible workflows and well-documented code.\n\n\nWrite a short paragraph about your background — where you studied, what field you work in, and what kinds of problems you enjoy solving.\n\n\n\n\n\n\nArea\nTools\n\n\n\n\nData wrangling\ndplyr, tidyr, data.table, janitor\n\n\nVisualisation\nggplot2, plotly, gt, reactable\n\n\nModelling\nlm, glm, lme4, tidymodels\n\n\nApps\nShiny, shinydashboard, bslib\n\n\nReporting\nQuarto, R Markdown, knitr\n\n\nVersion control\nGit, GitHub\n\n\n\n\n\n\n\n📍 Based in [Your City / Region]\n🔭 Working on [something you’re building]\n📫 Reach me at your@email.com"
+    "text": "Write 2–3 paragraphs here explaining:\n\nWhat the app does — the problem it solves and who uses it\nWhy you built it — the motivation or context\nWhat’s interesting about it — a key technical or design decision"
+  },
+  {
+    "objectID": "projects/shiny-app-template.html#live-app",
+    "href": "projects/shiny-app-template.html#live-app",
+    "title": "My Shiny App Title",
+    "section": "Live App",
+    "text": "Live App\n\n\n\n\nThe app is hosted on shinyapps.io (free tier — may take a moment to wake up). Open in new tab ↗"
+  },
+  {
+    "objectID": "projects/shiny-app-template.html#how-it-works",
+    "href": "projects/shiny-app-template.html#how-it-works",
+    "title": "My Shiny App Title",
+    "section": "How It Works",
+    "text": "How It Works\nExplain the key technical pieces. Use code blocks to highlight interesting parts.\n# Example: a reactive that filters data based on user input\nfiltered_data &lt;- reactive({\n  data |&gt;\n    filter(\n      year &gt;= input$year_range[1],\n      year &lt;= input$year_range[2],\n      region %in% input$regions\n    )\n})\n\nUI structure\nBriefly describe how the UI is laid out — sidebar, tabs, panels, etc.\n\n\nKey packages\n\n\n\nPackage\nPurpose\n\n\n\n\nshiny\nApp framework\n\n\nbslib\nBootstrap 5 theming\n\n\nplotly\nInteractive charts\n\n\nDT\nInteractive tables"
+  },
+  {
+    "objectID": "projects/shiny-app-template.html#data",
+    "href": "projects/shiny-app-template.html#data",
+    "title": "My Shiny App Title",
+    "section": "Data",
+    "text": "Data\nDescribe the dataset: source, size, any cleaning steps. If the data is public, link to it.\n# Data loading and cleaning\ndata &lt;- read_csv(\"data/my-data.csv\") |&gt;\n  janitor::clean_names() |&gt;\n  filter(!is.na(key_variable))"
+  },
+  {
+    "objectID": "projects/shiny-app-template.html#source-code",
+    "href": "projects/shiny-app-template.html#source-code",
+    "title": "My Shiny App Title",
+    "section": "Source Code",
+    "text": "Source Code\nThe full source is on GitHub. Contributions and suggestions welcome."
   },
   {
     "objectID": "projects/analysis-template.html",
@@ -103,19 +138,5 @@
     "title": "",
     "section": "Featured Work",
     "text": "Featured Work\n\n\nMy Shiny App Title\nA brief description of what this app does, who it’s for, and what problem it solves. Keep it to 2–3 sentences.\n\nShiny Leaflet reactive\n\n\nLive App ↗ Source\n\n\n\nMy Analysis Title\nA brief description of the analysis, dataset used, and key finding or insight. Keep it to 2–3 sentences.\n\nggplot2 dplyr regression\n\n\nRead Report → Source\n\n\n\nMy Script / Pipeline Title\nA brief description of what this script does, how it runs, and the output it produces.\n\ndata wrangling purrr readr\n\n\nSee Code → Source\n\n\n\nSee all projects →"
-  },
-  {
-    "objectID": "about.html#hi-im-zak-kindl",
-    "href": "about.html#hi-im-zak-kindl",
-    "title": "About Me",
-    "section": "",
-    "text": "I’m a research associate / sports scientist based in Eugene at the Bowerman Sport Science Center. I work with messy data, build tools that make it useful, and communicate findings clearly.\nMy work spans exploratory analysis, statistical modelling, and interactive Shiny applications.\n\n\nWrite a short paragraph about your background — where you studied, what field you work in, and what kinds of problems you enjoy solving.\n\n\n\n\n\n\nArea\nTools\n\n\n\n\nData wrangling\ndplyr, tidyr, data.table, janitor\n\n\nVisualization\nggplot2, plotly, gt, reactable\n\n\nModelling\nlm, glm, lme4, tidymodels\n\n\nApps\nShiny, shinydashboard, bslib\n\n\nReporting\nQuarto, R Markdown, knitr\n\n\nVersion control\nGit, GitHub\n\n\n\n\n\n\n\n📍 Based in Eugene / Oregon\n🔭 Working on translating data into action\n📫 Reach me at zakgkindl@gmail.com"
-  },
-  {
-    "objectID": "about.html#hi-im-zak",
-    "href": "about.html#hi-im-zak",
-    "title": "About Me",
-    "section": "",
-    "text": "I’m a research associate / sports scientist based in Eugene in the Bowerman Sport Science Center. I work in a both a clinical and applied research capacity with athletes. In my free time I try to build tools that make data useful, and communicate findings clearly.\nMy work spans exploratory analysis, statistical modelling, and interactive Shiny applications.\n\n\nOriginally from Spokane, WA I grew up an avid runner before attending Washington State University as a student athlete in cross country & track. I found my love for human performance through this experience. Wanting to understand performance further I attended Marquette University where I worked as a research assistant/analyst before starting at the Bowerman Sport Science Center.\n\n\n\n\nB.A. Social Sciences\n\nEmphasis in Kinesiology, Human Development & Psychology\n\nM.S. Sport & Exercise Analytics\n\nEmphasis in data science\n\n\n\n\n\n\n\n\nArea\nTools\n\n\n\n\nData wrangling\ndplyr, tidyr, data.table, janitor\n\n\nVisualization\nggplot2, plotly, gt, reactable\n\n\nModelling\nlm, glm, lme4, tidymodels\n\n\nApps\nShiny, shinydashboard, bslib\n\n\nReporting\nQuarto, R Markdown, knitr\n\n\nVersion control\nGit, GitHub\n\n\n\n\n\n\n\n📍 Based in Eugene / Oregon\n🔭 Working on translating data into actionable insight\n📫 Reach me at zakgkindl@gmail.com"
   }
 ]
