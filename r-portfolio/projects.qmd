@@ -14,7 +14,7 @@ toc: false
 
 ::: {.project-card}
 
-### Model Statistic Performance Data (Adding soon)
+### Model Statistic & CV App
 
 Describe the app in 2–3 sentences. What does a user do with it? What data does it show? What's the key interaction?
 
@@ -71,7 +71,7 @@ Describe the analysis in 2–3 sentences. What question does it answer? What dat
 
 ::: {.project-card}
 
-### PCA of Countermovement Jump Data
+### PCA of CMJ Data
 
 Describe the analysis in 2–3 sentences. What question does it answer? What dataset? What methods?
 

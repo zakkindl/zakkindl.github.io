@@ -8,7 +8,7 @@ $headings-font-weight: 400;
 
 // Colors — adjust these to your taste
 $primary: #6c757d;
-$secondary: #696863;
+$secondary: #6c757d;
 $body-bg: #FAFAFA;
 $body-color: #2d2d2d;
 
@@ -68,15 +68,10 @@ $code-color: #1f2328;
   border-radius: 999px;
   font-size: 0.82rem;
   font-weight: 500;
-  background: #696863;
+  background: #6c757d;
   color: #ffffff;
-  border: 1px solid #2d2d2d;
+  border: 1px solid #6c757d;
   
-  .dark & {
-    background: #2d2d2d;
-    color: #ffffff;
-    border-color: #2d2d2d;
-  }
 }
 
 // Project card grid

@@ -9,13 +9,12 @@ toc: false
 
 ## Hi, I'm Zak
 
-I'm a research associate / sports scientist based in Eugene in the [Bowerman Sport Science Center](bssc.uoregon.edu). I work in a both a clinical and applied research capacity with athletes. In my free time I try to build tools that make data useful, and communicate findings clearly.
+I'm a research associate / sports scientist based in Eugene in the [Bowerman Sport Science Center](https://bssc.uoregon.edu/). I work with athletes in a both a clinical and applied research capacity. In my free time I try to build tools that make data useful,actionable and communicate findings clearly.
 
-My work spans exploratory analysis, statistical modelling, and interactive Shiny applications. 
 
 ### Background
 
-Originally from Spokane, WA I grew up an avid runner before attending Washington State University as a student athlete in cross country & track. I found my love for human performance through this experience. Wanting to understand performance further I attended Marquette University where I worked as a research assistant/analyst before starting at the Bowerman Sport Science Center. 
+Originally from Spokane, WA I grew up an avid runner before attending Washington State University as a student athlete in cross country & track. I found my love for human performance through this experience. Wanting to understand performance further I attended Marquette University where I worked as a research assistant/analyst before starting my current role at the Bowerman Sport Science Center. 
 
 ### Education
 
@@ -26,13 +25,21 @@ Originally from Spokane, WA I grew up an avid runner before attending Washington
 - M.S. Sport & Exercise Analytics
   - Emphasis in data science
 
+### Certifications
+
+- Certified Performance and Sport Scientist (CPSS)
+
+- Certified Strength & Conditioning Specialist (CSCS)
+
+- Certificate in Data Science (Marquette University)
+
+
 ### Skills
 
 | Area | Tools |
 |------|-------|
 | Data wrangling | dplyr, tidyr, janitor |
 | Visualization | ggplot2, plotly, gt, reactable |
-| Modelling | lm, glm, lme4, tidymodels |
 | Apps | Shiny, shinydashboard, bslib |
 | Reporting | Quarto, R Markdown, knitr |
 
