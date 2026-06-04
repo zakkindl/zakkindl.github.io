@@ -9,7 +9,7 @@ toc: false
 # Zak Kindl
 
 ::: {.hero-subtitle}
-Research Associate | Sports Scientist | Strength Coach
+Research Associate | Sports Scientist | S&C Coach
 :::
 
 ::: {.hero-badges}
@@ -37,15 +37,14 @@ I analyze performance data in an effort to make complex information clear and ac
 
 ### Model Statistic & CV App
 
-This is a Shiny App that uses the model statistic and CV method to quantify meaningful change versus biological noise or typical error. From the paper: 'Statistical Tests for Sports Science Practitioners: Identifying Performance Gains in Individual Athletes'
+The goal of this app is to give coaches an objective way to measure meaningful change beyond normal variation or noise. Using the model statistic (loosely considered a single-subject dependent t-test) & CV method first outlined by Harry, et al. in 2024 and coined by Oregon biomechanist Barry Bates in 1992.
 
 ::: {.card-tags}
 [RShiny]{.tag} [CV]{.tag} [SWC]{.tag}
 :::
 
 ::: {.card-links}
-[Live App ↗](https://yourusername.shinyapps.io/your-app)
-[Source](https://github.com/yourusername/your-app)
+[Live App ↗]( https://zakkindl.shinyapps.io/Model_Stat_App/)
 :::
 :::
 
@@ -61,8 +60,7 @@ Example technique of PCA in CMJ analysis from the paper: 'Predicting fatigue usi
 :::
 
 ::: {.card-links}
-[Read Report →](projects/my-analysis.qmd)
-[Source](https://github.com/yourusername/your-analysis)
+[Read Report →](https://019e93b4-8f77-a777-02a5-c4cc07e7c599.share.connect.posit.cloud)
 :::
 :::
 

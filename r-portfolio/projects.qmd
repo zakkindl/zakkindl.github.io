@@ -16,15 +16,14 @@ toc: false
 
 ### Model Statistic & CV App
 
-Describe the app in 2–3 sentences. What does a user do with it? What data does it show? What's the key interaction?
+The goal of this app is to give coaches an objective way to measure meaningful change beyond normal variation or noise. Using the model statistic (loosely considered a single-subject dependent t-test) & CV method first outlined by Harry, et al. in 2024 and coined by Oregon biomechanist Barry Bates in 1992. 
 
 ::: {.card-tags}
 [Shiny]{.tag} [plotly]{.tag} [DT]{.tag}
 :::
 
 ::: {.card-links}
-[Live App ↗](https://yourusername.shinyapps.io/app-one)
-[Source](https://github.com/yourusername/app-one)
+[Live App ↗]( https://zakkindl.shinyapps.io/Model_Stat_App/)
 :::
 :::
 
@@ -80,8 +79,7 @@ Describe the analysis in 2–3 sentences. What question does it answer? What dat
 :::
 
 ::: {.card-links}
-[Read Report →](projects/analysis-two.qmd)
-[Source](https://github.com/yourusername/analysis-two)
+[Read Report →](https://019e93b4-8f77-a777-02a5-c4cc07e7c599.share.connect.posit.cloud)
 :::
 :::
 
