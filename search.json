@@ -18,14 +18,14 @@
     "href": "projects.html#shiny-apps",
     "title": "Projects",
     "section": "Shiny Apps",
-    "text": "Shiny Apps\n\n\nModel Statistic & CV App\nDescribe the app in 2–3 sentences. What does a user do with it? What data does it show? What’s the key interaction?\n\nShiny plotly DT\n\n\nLive App ↗ Source\n\n\n\nApp Title Two\nDescribe the app in 2–3 sentences. What does a user do with it? What data does it show? What’s the key interaction?\n\nShiny leaflet sf\n\n\nLive App ↗ Source"
+    "text": "Shiny Apps\n\n\nModel Statistic & CV App\nThe goal of this app is to give coaches an objective way to measure meaningful change beyond normal variation or noise. Using the model statistic (loosely considered a single-subject dependent t-test) & CV method first outlined by Harry, et al. in 2024 and coined by Oregon biomechanist Barry Bates in 1992.\n\nShiny plotly DT\n\n\nLive App ↗\n\n\n\nApp Title Two\nDescribe the app in 2–3 sentences. What does a user do with it? What data does it show? What’s the key interaction?\n\nShiny leaflet sf\n\n\nLive App ↗ Source"
   },
   {
     "objectID": "projects.html#analyses-reports",
     "href": "projects.html#analyses-reports",
     "title": "Projects",
     "section": "Analyses & Reports",
-    "text": "Analyses & Reports\n\n\nParameterized Reporting\nDescribe the analysis in 2–3 sentences. What question does it answer? What dataset? What methods?\n\nquarto fill me fill me\n\n\nRead Report → Source\n\n\n\nPCA of CMJ Data\nDescribe the analysis in 2–3 sentences. What question does it answer? What dataset? What methods?\n\nPCA fill me\n\n\nRead Report → Source"
+    "text": "Analyses & Reports\n\n\nParameterized Reporting\nDescribe the analysis in 2–3 sentences. What question does it answer? What dataset? What methods?\n\nquarto fill me fill me\n\n\nRead Report → Source\n\n\n\nPCA of CMJ Data\nDescribe the analysis in 2–3 sentences. What question does it answer? What dataset? What methods?\n\nPCA fill me\n\n\nRead Report →"
   },
   {
     "objectID": "projects.html#scripts-pipelines",
@@ -137,6 +137,6 @@
     "href": "index.html#featured-work",
     "title": "",
     "section": "Featured Work",
-    "text": "Featured Work\n\n\nModel Statistic & CV App\nThis is a Shiny App that uses the model statistic and CV method to quantify meaningful change versus biological noise or typical error. From the paper: ‘Statistical Tests for Sports Science Practitioners: Identifying Performance Gains in Individual Athletes’\n\nRShiny CV SWC\n\n\nLive App ↗ Source\n\n\n\nPCA of CMJ Data\nExample technique of PCA in CMJ analysis from the paper: ‘Predicting fatigue using countermovement jump force-time signatures’\n\nPCA R Analysis regression\n\n\nRead Report → Source\n\n\n\nParameterized Reporting\nAuto reports in R easily across multiple athletes\n\nquarto reporting automation\n\n\nSee Code → Source\n\n\n\nSee all projects →"
+    "text": "Featured Work\n\n\nModel Statistic & CV App\nThe goal of this app is to give coaches an objective way to measure meaningful change beyond normal variation or noise. Using the model statistic (loosely considered a single-subject dependent t-test) & CV method first outlined by Harry, et al. in 2024 and coined by Oregon biomechanist Barry Bates in 1992.\n\nRShiny CV SWC\n\n\nLive App ↗\n\n\n\nPCA of CMJ Data\nExample technique of PCA in CMJ analysis from the paper: ‘Predicting fatigue using countermovement jump force-time signatures’\n\nPCA R Analysis regression\n\n\nRead Report →\n\n\n\nParameterized Reporting\nAuto reports in R easily across multiple athletes\n\nquarto reporting automation\n\n\nSee Code → Source\n\n\n\nSee all projects →"
   }
 ]
